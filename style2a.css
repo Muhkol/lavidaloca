@@ -1,0 +1,14 @@
+.photolist{
+    margin: 70px 0; 
+}
+
+.photo1{
+     flex-basis: 40%;
+     min-width: 250px;
+     widows: 100px;
+}
+
+.photo2{
+     flex-basis: 40%;
+     min-width: 250px;
+}

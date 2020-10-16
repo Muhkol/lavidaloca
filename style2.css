@@ -1,0 +1,42 @@
+body{
+        background-image: url(/image/IMG_0063.jpg); 
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        
+        
+}
+        /*remember to always style in order. It makes a difference*/
+.container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1024px;
+}
+
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.navbar{
+        display: flex;
+        align-items: center;
+        padding: "30px";  
+}
+
+nav ul li{
+        font-size: 150%;
+        font-weight: bolder;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        display: inline-block;
+        list-style-type: none;
+        /* if the list should have bullet points or not*/
+        margin-right: 60px;
+        /* margin right spaces out the box text */
+}
+
+
+
